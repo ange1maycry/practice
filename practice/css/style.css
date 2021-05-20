@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    padding-top: 30px;
+    padding-bottom: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.navigation {
+    text-transform: uppercase;
+}
+.nav_menu {
+    margin: 71px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    color: #777777;
+}
+.tel_menu {
+    margin: 60px;
+    text-decoration: none;
+    color: black;
+    color: #777777;
+}
+.hero {
+    font-family: 'Roboto', sans-serif;
+    height: 1114px;
+    background: url(/img/hero.png) no-repeat center;
+    background-size: cover;
+}
+.title_block {
+    padding-top: 177px;
+}
+.title_hero {
+    font-size: 62px;
+    line-height: 83px;
+    color: #0f1c2e;
+    padding-bottom: 6px;
+}
+.subtitle_hero {
+    font-size: 36px;
+    line-height: 1.2;
+    padding-bottom: 29px;
+}
+.description_hero {
+    font-size: 16px;
+    line-height: 1.2;
+    max-width: 360px;
+    padding-bottom: 68px;
+}
+.buttons {
+    display: grid;
+}
+.primary {
+    width: 239px;
+    height: 48px;
+    background-color: #0842b7;
+    box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.secondary {
+    width: 239px;
+    height: 48px;
+    border: 1px solid #0842b7;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #0842b7;
+    cursor: pointer;
+    background: transparent;
+}
+.why_robot {
+    width: 294px;
+    height: 72px;
+    background-color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-top: 277px;
+    text-align: center;
+    padding-top: 20px;
+}
+.advantages {
+    display: flex;
+    padding-top: 77px;
+}
+.profit_promo {
+    padding-top: 154px;
+}
+.percentage {
+    font-size: 300px;
+    line-height: 80px;
+    font-weight: 100;
+    letter-spacing: -0.05em;
+    color: #0f1c2e;
+}
+.percentage_tag {
+    display: flex;
+    justify-content: end;
+    font-size: 112px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    color: #06bee1;
+    padding-left: 350px;
+}
+.title_profit {
+    padding-top: 71px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0f1c2e;
+    max-width: 280px;
+}
+.description_profit {
+    padding-top: 31px;
+    font-size: 17px;
+    line-height: 1.2;
+    max-width: 250px;
+}
+.analysis_promo {
+    padding-left: 157px;
+    padding-top: 247px;
+}
+.title_analysis {
+    padding-top: 74px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0f1c2e;
+    max-width: 200px;
+}
+.description_analysis {
+    padding-top: 31px;
+    font-size: 17px;
+    line-height: 1.2;
+    max-width: 480px;
+}
+.setting_promo {
+    padding-left: 157px;
+    padding-top: 230px;
+}
+.title_setting {
+    padding-top: 75px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0f1c2e;
+    max-width: 0%;
+}
+.description_setting {
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 1.2;
+    max-width: 310px;
+}
+.line {
+    margin-top: 116px;
+    height: 1px;
+    background-color:#eaf1f7;
+}
+.create_robot {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 670px;
+}
+.title_create_robot {
+    padding-bottom: 29px;
+    font-size: 24px;
+    line-height: 42px;
+    color: #0f1c2e;
+}
+.description_create_robot {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0f1c2e;
+    padding-bottom: 64px;
+}
+.profit_create_robot {
+    padding-bottom: 36px;
+    align-items: center;
+}
+.title_profit_create_robot {
+    font-size: 16px;
+    line-height: 1.2;
+}
+.block_create_robot {
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    width: 98px;
+    height: 48px;
+    border: 1px solid #cfdeee;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.sell_create_robot {
+    font-size: 16px;
+    line-height: 1.2;
+}
+.line2 {
+    height: 1px;
+    background-color: #eaf1f7;
+    margin-bottom: 39px;
+}
+.subtitle_create_robot {
+    align-items: center;
+}
+.description_profit_create_robot {
+    margin-right: 55px;
+}
+.tools_create_robot {
+    margin-right: 57px;
+}
+.button_create_robot {
+    margin-top: 88px;
+    margin-bottom: 120px;
+    width: 361px;
+    height: 48px;
+    background-color: #0842b7;
+    box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+.profit_create_robot {
+    display: flex;
+}
+.subtitle_create_robot {
+    display: flex;
+}
+.trade_training {
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_457.png) no-repeat center;
+    background-size: cover;
+    height: 410px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.title_trade_training {
+    padding-top: 127px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.button_trade_training {
+    width: 226px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+}
+.advantage_create_robot {
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_429.png) no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 912px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.title_advantage_create_robot {
+    padding-top: 123px;
+    font-size: 28px;
+    line-height: 1.2;
+}
