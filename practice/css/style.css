@@ -283,8 +283,78 @@
     align-content: flex-start;
     flex-wrap: wrap;
 }
+.trade_training_promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title_trade_training {
+    font-size: 20px;
+    line-height: 1.2;
+}
 .title_advantage_create_robot {
     padding-top: 123px;
     font-size: 28px;
     line-height: 1.2;
+}
+.map_training {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.map_training_hero {
+    padding-top: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_map_training {
+    padding-bottom: 29px;
+    font-size: 36px;
+    line-height: 43px;
+    color: #0f1c2e;
+}
+.description_map_trainig {
+    font-size: 16px;
+    line-height: 24px;
+    color: #061826;
+}
+.stages_map_trainig {
+    padding-top: 98px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0f1c2e;
+}
+.video_map_trainig {
+    padding-top: 89px;
+}
+.title_examples_algorithm {
+    padding-top: 77px;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.description_examples_algorithm {
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061826;
+    max-width: 600px;
+}
+.button_map_training {
+    margin-top: 45px;
+    width: 554px;
+    height: 48px;
+    background-color: #0842b7;
+    box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+.line3 {
+    width: -webkit-fill-available;
+    margin-top: 120px;
+    height: 1px;
+    background-color:#eaf1f7;
 }
