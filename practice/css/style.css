@@ -372,3 +372,131 @@
     height: 1px;
     background-color:#eaf1f7;
 }
+.format_training {
+    font-family: 'Roboto', sans-serif;
+}
+.promo_format_training {
+    display: flex;
+}
+.card_format_training {
+    margin-right: 48px;
+}
+.img_format_training {
+    padding-bottom: 49px;
+}
+.title_card_format_training {
+    font-size: 24px;
+    line-height: 28px;
+    color: #0f1c2e;
+    padding-bottom: 32px;
+}
+.learning_process {
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_33.png) no-repeat center;
+    height: 607px;
+    background-size: cover;
+}
+.title_learning_process {
+    padding-top: 112px;
+    font-size: 52px;
+    line-height: 1.2;
+    max-width: 480px;
+}
+.learning_process_cards {
+    display: flex;
+}
+.learning_card {
+    padding-top: 111px;
+    margin-right: 141px;
+}
+.number_learning_card {
+    font-size: 32px;
+    line-height: 1.2;
+    padding-bottom: 45px;
+}
+.title_learning_card {
+    font-size: 28px;
+    padding-bottom: 29px;
+}
+.subtitle_learning_card {
+    font-size: 17px;
+}
+.advantages_course {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaf1f7;
+    height: 791px;
+}
+.promo_advantages_course {
+    display: flex;
+    flex-direction: column;
+}
+.title_promo_advantages_course {
+    padding-top: 119px;
+    font-size: 42px;
+    line-height: 1.2;
+}
+.title_intensive_cards {
+    font-size: 18px;
+    line-height: 1.2;
+    padding-top: 60px;
+    padding-bottom: 36px;
+}
+.intensive_cards_advantages_course {
+    display: flex;
+}
+.intensive_card {
+    padding-right: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061826;
+}
+.image_intensive {
+    padding-bottom: 21px;
+}
+.data_form {
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_97.png) no-repeat center;
+    height: 698px;
+    background-size: cover;
+}
+.title_data_form {
+    padding-top: 128px;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.description_data_form {
+    padding-top: 26px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.register_forms {
+    display: flex;
+    flex-direction: column;
+}
+.register_form {
+    padding-left: 17px;
+    width: 359px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000000;
+    outline: none;
+}
+.primary_register_forms {
+    width: 380px;
+    height: 48px;
+    background-color: #0842b7;
+    box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
