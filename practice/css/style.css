@@ -428,6 +428,7 @@
 }
 .promo_advantages_course {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 .title_promo_advantages_course {
@@ -454,18 +455,28 @@
     padding-bottom: 21px;
 }
 .data_form {
+    display: flex;
     font-family: 'Roboto', sans-serif;
     background: url(/img/shape_97.png) no-repeat center;
     height: 698px;
     background-size: cover;
 }
+.data_form_promo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .title_data_form {
+    text-align: center;
+    max-width: 370px;
     padding-top: 128px;
     font-size: 32px;
     line-height: 1.2;
     color: #ffffff;
 }
 .description_data_form {
+    text-align: center;
+    max-width: 430px;
     padding-top: 26px;
     padding-bottom: 24px;
     font-size: 16px;
