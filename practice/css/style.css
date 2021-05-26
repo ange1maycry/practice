@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container {
     max-width: 1300px;
@@ -75,6 +76,7 @@
     color: #ffffff;
     cursor: pointer;
     margin-bottom: 12px;
+    border: none;
 }
 .secondary {
     width: 239px;
@@ -245,6 +247,7 @@
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+    border: none;
 }
 .profit_create_robot {
     display: flex;
@@ -365,6 +368,7 @@
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+    border: none;
 }
 .line3 {
     width: -webkit-fill-available;
@@ -454,6 +458,64 @@
 .image_intensive {
     padding-bottom: 21px;
 }
+.teaching {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 118px;
+}
+.teaching_promo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.teaching_title_promo {
+    font-size: 42px;
+    line-height: 1.2;
+}
+.teaching_description_promo {
+    padding-top: 29px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061826;
+}
+.subscriptions_teaching {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+.subscription {
+    margin-right: 224px;
+}
+.subscription_tariff {
+    font-size: 24px;
+    line-height: 1.2;
+}
+.subscription_cost {
+    padding-top: 27px;
+    padding-bottom: 45px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #06bee1;
+}
+.subscription_teaching {
+    padding-top: 29px;
+    font-size: 16px;
+    color: #061826;
+}
+.subscription_buy {
+    width: 166px;
+    height: 48px;
+    border: 1px solid #0842b7;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0842b7;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 69px;
+}
 .data_form {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -498,9 +560,10 @@
     line-height: 1.2;
     color: #000000;
     outline: none;
+    border: none;
 }
 .primary_register_forms {
-    width: 380px;
+    width: 359px;
     height: 48px;
     background-color: #0842b7;
     box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
@@ -510,4 +573,115 @@
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+    border: none;
+}
+.reviews {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.reviews_promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 117px;
+}
+.reviews_promo_title {
+    font-size: 42px;
+    line-height: 1.2;
+}
+.video_reviews {
+    padding-top: 64px;
+}
+.reviews_title {
+    font-size: 24px;
+    line-height: 1.2;
+    padding-top: 77px;
+}
+.reviews_description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061826;
+    max-width: 540px;
+    padding-top: 36px;
+    padding-bottom: 116px;
+}
+.return {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_28.png) no-repeat center;
+    background-size: cover;
+    height: 432px;
+}
+.return_promo {
+    padding-top: 128px;
+    padding-bottom: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.return_title {
+    max-width: 285px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.questions {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/shape_34.png) no-repeat center;
+    background-size: cover;
+    height: 423px;
+}
+.questions_promo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 128px;
+}
+.questions_title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.questions_description {
+    max-width: 460px;
+    text-align: center;
+    padding-top: 31px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.questions_register_forms {
+    padding-top: 32px;
+    margin-bottom: 123px;
+}
+.question_register_form {
+    margin-right: 30px;
+    width: 263px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding-left: 17px;
+    outline: none;
+}
+.register_forms_button {
+    width: 269px;
+    height: 48px;
+    background-color: #0842b7;
+    box-shadow: 0px 12px 24px 0px rgba(6,57,158,0.31);
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+.footer_promo {
+    padding-top: 124px;
 }
